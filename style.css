@@ -1,0 +1,57 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  color: #333;
+}
+p, span, a, li, input, textarea, label, select, option, button {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #333;
+}
+
+
+
+/* STRUCTURE FLEX */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.box-25{
+    width:25%;
+}
+.box-33{
+    width:33.33333333333333%;
+}
+.box-50{
+    width:50%;
+}
+.box-66{
+    width:66.6666666666666%;
+}
+.box-75{
+    width:75%;
+}
+.box-100{
+    width:100%;
+}
+
+
+
+/* COLORS */
+
+
+
+/* CUSTOM CODE */
