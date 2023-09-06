@@ -1,4 +1,12 @@
 /* FONTS */
+*,
+body *{
+    box-sizing: border-box;
+}
+img{
+    max-width:100%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 h1,
 h2,
@@ -31,9 +39,12 @@ p, span, a, li, input, textarea, label, select, option, button {
 }
 .box-25{
     width:25%;
+    padding: 0 5px 0 5px;
 }
 .box-33{
     width:33.33333333333333%;
+    padding: 0 5px 0 5px;
+    margin-top: 50px;
 }
 .box-50{
     width:50%;
@@ -55,3 +66,190 @@ p, span, a, li, input, textarea, label, select, option, button {
 
 
 /* CUSTOM CODE */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+nav h1, nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#menu {
+    display: flex;
+    gap: 20px;
+}
+header {
+    background-image: url(images/section1.jpg);
+    background-size: cover;
+    height: 600px;
+}
+#slider {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    padding: 200px 50px 0 50px;
+}
+#slider h4, #slider h1, #slider p, #dot {
+    color: #FFFFFF;
+}
+#slider h4 {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+#slider h1 {
+    font-size: 30px;
+}
+#slider p {
+    font-size: 12px;
+}
+#dot {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+}
+#dot2, #dot3 {
+    opacity: 0.3;
+}
+.container h1 {
+    margin-top: 100px;
+    font-size: 20px;
+}
+#filters {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 20px 0 20px 0;
+}
+#filters p {
+    font-size: 12px;
+    font-weight: 700;
+}
+#filters p:hover {
+    color: rgba(230, 166, 46, 0.597);
+    cursor: pointer;
+}
+#all {
+    right: 0;
+    position: absolute;
+    margin-right: 15px
+}
+.img {
+    position: relative;
+    margin-top: 15px;
+}
+.imgTag {
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    top: 15px;
+    right: 15px;
+}
+.imgDate {
+    margin-top: 15px;
+    color: #6C757D;
+    font-size: 12px;
+}
+.imgTitle {
+    margin-top: 15px;
+    font-weight: 700;
+}
+.imgText {
+    margin: 15px 0 15px 0;
+    color: #6C757D;
+    font-size: 12px;
+}
+#section2 {
+    background-image: url(images/section2.jpg);
+    height: 600px;
+    padding-top: 220px;
+}
+#section2 p, #section2 h1, #section2tag {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px auto;
+}
+#section2 h1 {
+    font-size: 36px;
+    margin: 20px 100px 20px 100px;
+}
+#section2 p {
+    margin: 20px 200px 20px 200px;
+}
+#section2tag {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    width: 7%;
+    font-size: 10px;
+    display: block;
+}
+#editor1 {
+    background-image: url(images/editor1.jpg);
+    height: 350px;
+    border-radius: 5px;
+}
+#editor2 {
+    background-image: url(images/editor2.jpg);
+    height: 350px;
+    border-radius: 5px;
+}
+#editor3 {
+    background-image: url(images/editor3.jpg);
+    height: 350px;
+    border-radius: 5px;
+}
+.box-33 p {
+    color: #FFFFFF;
+}
+.editorTag {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    width: 30%;
+}
+footer {
+    display: flex;
+    background-color: black;
+    height: 400px;
+    margin-top: 100px;
+}
+.box-25 {
+    text-align: center;
+}
+footer div p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.box-25 li {
+    color: grey;
+    font-size: 12px;
+    padding: 10px;
+}
+.box-25 i {
+    margin-right: 10px;
+}
+.banner {
+    background: #343A40;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.banner p {
+    color: #FFFFFF;
+}
