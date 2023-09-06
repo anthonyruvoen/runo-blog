@@ -84,7 +84,7 @@ nav h1, nav a {
     display: flex;
     gap: 20px;
 }
-header {
+#header1 {
     background-image: url(images/section1.jpg);
     background-size: cover;
     height: 600px;
@@ -252,4 +252,45 @@ footer div p {
 }
 .banner p {
     color: #FFFFFF;
+}
+
+/* page 2 */
+
+#header2 {
+    background-image: url(images/section2.jpg);
+    background-size: cover;
+    height: 600px;
+}
+#article {
+    border: 1px red solid;
+    margin: 50px 250px 50px 50px;
+    height: 800px;
+    display: flex;
+}
+#articleDate {
+    width: 20%;
+}
+#articleContent {
+    width: 80%;
+}
+#articleImage {
+    width: 50%;
+    padding: 5px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+#articleImage img {
+    border-radius: 5px;
+}
+#articleBottom {
+    margin-top: 50px;
+}
+#articleBottom p {
+    margin-bottom: 20px;
+}
+#articleBottom h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #D4A373;
 }
