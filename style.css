@@ -262,7 +262,6 @@ footer div p {
     height: 600px;
 }
 #article {
-    border: 1px red solid;
     margin: 50px 250px 50px 50px;
     height: 800px;
     display: flex;
@@ -276,6 +275,7 @@ footer div p {
 #articleImage {
     width: 50%;
     padding: 5px;
+    margin-top: 20px;
     gap: 15px;
     display: flex;
     flex-direction: row;
@@ -290,7 +290,11 @@ footer div p {
     margin-bottom: 20px;
 }
 #articleBottom h1 {
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
     font-size: 36px;
     color: #D4A373;
+}
+#articleTags {
+    display: flex;
+    background-color: grey;
 }
